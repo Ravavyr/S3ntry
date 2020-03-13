@@ -1,9 +1,9 @@
 # S3ntry
 S3ntry is an AWS S3 File Manager Built in Vanilla Javascript. Plug and play on any site. 
 
-##Features
+## Features
 
-###TODO        
+### TODO        
    - Finish cleaning up look and feel of List View
    - Fix styling for upload screen, add scrollbar if too many files
    - Limit to 10 files upload [make variable in config]
@@ -14,7 +14,7 @@ S3ntry is an AWS S3 File Manager Built in Vanilla Javascript. Plug and play on a
    -- S3 configs
    -- Explanation of features and functionality
 
-###DONE
+### DONE
    - list folders in bucket
    - create folder
    - file drag and drop uploader
