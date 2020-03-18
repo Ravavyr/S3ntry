@@ -3,15 +3,15 @@ S3ntry is an AWS S3 File Manager Built in Vanilla Javascript. Plug and play on a
 
 ## Features
 
-### TODO        
-   - Finish cleaning up look and feel of List View
-   - Fix styling for upload screen, add scrollbar if too many files
-   - Limit to 10 files upload [make variable in config]
-   - Fix breadcrumbs for subfolders
-   -- Make breadcrumbs clickable to parent levels
-   
+### TODO 
+   - upload screen fix styling, add scrollbar if too many files
+   - file upload limit parameter
+      - implement parameter into uploader interface and error messages          
+   - Add pagination
+   - Responsiveness for mobile [do not recommend until performance is improved]
+      
    - Create Tutorial
-   -- S3 configs
+   -- S3 configs [the hardest part]
    -- Explanation of features and functionality
 
 ### DONE
@@ -26,13 +26,14 @@ S3ntry is an AWS S3 File Manager Built in Vanilla Javascript. Plug and play on a
    - On create file, prompt to overwrite existing file of same name
    - Delete files
    - File list => added scrolling and responsiveness down to 900px width.
+   - Cleaned up look and feel of List View
    - Fixed reload/reinstantiation issue on resize
    - If file upload is selected, close it when navigating to another folder or adding a folder. [also view switch]
    - If add folder is open, close it when navigating to another folder or adding a file [also view switch]
    - File type support is customizable in config
    - Files can now be downloaded
    - Folders can be deleted, will delete all items inside folder
-   - Files are now sorted by name    
-
-       
-          
+   - Files are now sorted by name
+   - Fix breadcrumbs render for subfolders
+   - Make breadcrumbs clickable to parent levels
+   - Added Example code to render file manager 

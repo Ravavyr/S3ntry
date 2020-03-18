@@ -1,0 +1,21 @@
+
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page for S3ntry.JS</title>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.613.0.min.js"></script>
+    <script async src="sentry.js"></script>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="testinput" width="200"/>
+    </form>
+    <script>
+        document.getElementById("testinput").onclick=function(e){
+            let s3ntry = new sentry();
+            s3ntry.load(e.target);
+        }
+    </script>
+</body>
+</html>
