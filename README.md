@@ -1,6 +1,12 @@
 # S3ntry
 S3ntry is an AWS S3 File Manager Built in Vanilla Javascript. Plug and play on any site. 
 
+- I need to write a tutorial to show you how to setup your bucket. 
+*Essentially, lock down the bucket and give the cognito pool access to a role with S3 permissions to list/add/edit/delete objects.*
+- I know the code is in one file, that's currently the point.
+- The CSS is in the JS and can be moved out if you want to.
+- Reach out to me with questions, i'll be glad to help. https://twitter.com/ravavyr
+
 ## Features
 
 ### TODO 
